@@ -1,0 +1,286 @@
+* {
+  padding: 0;
+  margin: 0;
+  border-sizeing: border-box;
+}
+body {
+  background-color: #e8eff0;
+}
+
+.container {
+  background-color: #e8eff0;
+  padding: 0;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  background-color: #e8eff0;
+}
+
+.right-div {
+  border: solid 1px #fcfcfc;
+}
+
+.right-div h2 {
+  font-size: 18px;
+  margin: 10px 20px;
+}
+
+.right-div nav {
+  margin: 20px 0;
+}
+
+.right-div input {
+  width: 350px;
+  height: 40px;
+  margin-left: 20px;
+  padding-left: 10px;
+  border: 1px solid #e8e8e8;
+  margin-right: 20px;
+}
+
+.right-div button {
+  width: 140px;
+  height: 40px;
+  border-radius: 5px;
+  margin-right: 10px;
+  background: -webkit-linear-gradient(bottom, #93a9ba, #bbc9d4);
+  color: #525e6a;
+  font-size: 18px;
+  font-weight: 500;
+  border: #bbc9d4 solid 1px;
+}
+
+.left-div {
+  width: 50%;
+  padding: 10px;
+  background-color: #e8eff0;
+}
+.nav-link {
+  padding: 0 0;
+  padding-right: 15px;
+  margin-left: 15px;
+}
+
+.nav-link.oneone {
+  border-right: dashed 1px gray;
+}
+
+.nav i {
+  padding: 0 0;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+.right-div {
+  font-size: 1rem;
+  width: 50%;
+  padding: 10px;
+  border: solid 1px #fcfcfc;
+  background-color: #fcfcfc;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.right-div img {
+  width: 100%;
+  padding-top: 0px;
+}
+
+.content {
+  display: flex;
+  align-item: center;
+  background: #fcfcfc;
+  padding: 40px 40px;
+}
+
+.content-left {
+  width: 70%;
+}
+.content-left-div {
+  margin-left: 40px;
+  width: 650px;
+}
+
+.content-left h2 {
+  margin-left: 40px;
+}
+
+.content-left-div p {
+  color: #a4a3a4;
+  margin-top: 40px;
+}
+
+.content-box {
+  border: 8px solid white;
+  width: 650px;
+  height: 350px;
+  background-color: #ef5741;
+  padding: 20px 20px;
+}
+
+.content-right {
+  width: 20%;
+  text-align: center;
+}
+
+.content-right img {
+  height: 450px;
+}
+
+.content-right button {
+  margin: 20px 0px;
+  border-radius: 10px;
+  width: 320px;
+  height: 70px;
+  font-size: 30px;
+  color: #5f7933;
+  background: -webkit-linear-gradient(bottom, #a5ce5d, #c8e084);
+  border: 1px solid #c8e084;
+  font-weight: 600;
+}
+
+.article {
+  border: dashed #e8e8e8 1px;
+}
+
+.article img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.deal {
+  background-color: #fcfcfc;
+}
+
+.deal_content {
+  display: flex;
+  justify-content: center;
+}
+
+.deal_item {
+  width: 33.33%;
+}
+
+.deal_big_box {
+  border: solid 1px #e8e8e8;
+  margin: 10px 10px;
+}
+
+.deal_item_box {
+  border: 5px solid white;
+  background-color: #ef5741;
+  width: 100%;
+  height: 140px;
+}
+
+.deal_item {
+  padding: 10px 20px;
+}
+
+.deal_item h3 {
+  font-size: 16px;
+  padding: 0 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+.deal-ul {
+  display: flex;
+  margin: 10px 20px;
+  text-align: center;
+}
+
+.deal-ul li {
+  width: 33.33%;
+  color: #afafaf;
+}
+
+.deal-ul li b {
+  width: 33.33%;
+  color: black;
+}
+
+ul .oneone {
+  border-right: dashed 1px gray;
+}
+
+.deal_footer {
+  display: flex;
+}
+
+.deal_footer h4 {
+  width: 70%;
+  font-size: 12px;
+  color: #b7b7b7;
+}
+
+.deal_footer button {
+  font-weight: 500;
+  border-radius: 5px;
+  width: 100px;
+  color: #69823d;
+  border: #b8ce87 solid 1px;
+  background: -webkit-linear-gradient(bottom, #a5ce5d, #c8e084);
+}
+
+.about {
+  background: #fcfcfc;
+}
+
+.about_content {
+  display: flex;
+}
+
+.about_item {
+  width: 33.33%;
+  padding: 20px 20px;
+}
+
+.about_item h2 {
+  font-size: 20px;
+}
+
+.about_item p {
+  color: #a4a3a4;
+}
+
+.about_item button {
+  background-color: #e9e9e9;
+  color: #acacac;
+  border-radius: 5px;
+  width: 70px;
+  font-size: 12px;
+  height: 25px;
+  font-weight: 600;
+  border: 1px solid #e9e9e9;
+}
+
+hr {
+  border: dashed 1px #e8e8e8;
+}
+
+footer {
+  margin: 20px 20px;
+  text-align: center;
+}
+
+footer p {
+  text-align: center;
+}
+
+.two_two {
+  border-top: dashed 1px #e8e8e8;
+  border-right: dashed 1px #e8e8e8;
+}
+
+.just_one {
+  border-top: dashed 1px #e8e8e8;
+}
+
+.just_one p {
+  color: #69823d;
+}
